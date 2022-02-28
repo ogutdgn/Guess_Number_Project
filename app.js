@@ -9,7 +9,7 @@ const display = function (){
     limit.innerText = `Enter a number and win! \n (between ${lowest} and ${highest})`;
 }
 
-display()
+display();
 console.log("Random Number: ", randomNumber);
 document.getElementById("guessNumber").focus();
 
